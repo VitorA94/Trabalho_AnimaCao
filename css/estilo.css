@@ -1,0 +1,74 @@
+/*Impostação de fontes: Open Sans e Lexend*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+/*Plano de fundo gradiente e tornar UI flexível*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 220, 143), rgb(17, 71, 60));
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Caixa para o formulário*/
+.box {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+
+/*Menu de Navegação e Rodapé*/
+#menu, footer {
+    background-color: rgb(25, 78, 58);
+    font-family: 'Lexend', sans-serif;
+}
+
+/*Título da listagem de cadastros*/
+#titulo_listagem{
+  border: 3px solid rgb(30, 255, 124);
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+}
+
+/*Corpo do Formulário*/
+fieldset {
+    border: 3px solid rgb(30, 255, 124);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Título do Formulário*/
+legend {
+    border: 1px solid rgb(30, 255, 124);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(30, 255, 124);
+    border-radius: 8px;
+    font-family: 'Lexend', sans-serif;
+}
+
+/*Container das caixas de texto*/
+.inputBox {
+    position: relative;
+    padding: 8px;
+}
+
+/*Caixas de texto*/
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
